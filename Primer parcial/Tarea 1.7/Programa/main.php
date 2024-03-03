@@ -24,7 +24,7 @@
         }
         .presentation{
             background-image: linear-gradient(rgb(17, 119, 183), rgb(14, 85, 129));
-            padding: 260px;
+            padding: 210px;
         }
         .presentation h1{
             color: white;
