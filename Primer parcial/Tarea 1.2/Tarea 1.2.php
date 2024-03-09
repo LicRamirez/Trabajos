@@ -1,6 +1,7 @@
 <html>
 <body>
     <?php
+        echo "Variables A: ",$a," B: ",$b,"<br>";
         $a=122;
         $b=64;
         if($a>$b)
