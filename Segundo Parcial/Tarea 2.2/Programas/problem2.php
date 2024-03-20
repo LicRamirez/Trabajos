@@ -32,7 +32,7 @@ echo "<h3>La respuestas es...</h3>";
                 case 'K': $sum+=8; break;
                 case 'O':
                 case 'L': $sum+=9; break;
-                case 'p': $sum+=10; break; 
+                case 'p': $sum+=0; break; 
             }
         }
         return $sum;
