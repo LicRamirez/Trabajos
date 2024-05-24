@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body{
+            margin: 0;
+            font-family: 'Poppins';
+            margin: 0;
+        }
+        header i{
+            margin: 0;
+            color: white;
+            font-weight: 800;
+            font-size: 70px;
+        }
+        a{
+            text-decoration: none;
+            height: 120px; 
+            width: 120px;
+        }
+        header{
+            height: 120px; 
+            width: 120px;
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0 0 50% 0;
+        }
+</style>
+    <a href="mainMain.html">
+    <header>
+        <i class="fa-solid fa-arrow-left"></i>
+    </header>
+    </a>
+
+<main>
+    <form action="index.php" method="post">
+        <table>
+            <tr>
+                <td>User</td>
+                <td><input type="text" name="txtlogin" class="txt"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="text" name="txtpass" class="txt"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" value="Enviar" class="btn"></td>
+            </tr>
+        </table>
+    </form>
+</main>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</body>
+</html>
